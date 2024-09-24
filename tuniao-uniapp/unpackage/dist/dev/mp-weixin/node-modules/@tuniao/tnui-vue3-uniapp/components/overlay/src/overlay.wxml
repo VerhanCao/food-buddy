@@ -1,0 +1,1 @@
+<view class="{{['data-v-40a804f4', a]}}" style="{{b}}" catchtap="{{c}}" catchtouchmove="{{d}}"><slot/></view>

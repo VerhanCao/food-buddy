@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1"
+  },
+  "dependencies": {
+    "@tuniao/tn-icon": "^1.9.0",
+    "@tuniao/tn-style": "^1.0.19",
+    "@tuniao/tnui-vue3-uniapp": "^1.0.21",
+    "animate.css": "^4.1.1",
+    "axios": "^1.7.6",
+    "axios-miniprogram-adapter": "^0.3.5",
+    "tnuiv3p-tn-select-tags": "^1.0.4",
+    "tnuiv3p-tn-update-user-info-popup": "^1.0.2",
+    "typescript": "^5.5.4",
+    "ucharts": "^0.0.0"
+  }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace= "com.example.mapper.SysUserMapper">
+
+    <!-- 根据用户名查询用户 -->
+    <select id="selectByaccountNumber" resultType="com.example.entity.SysUser">
+        SELECT * FROM sys_user WHERE account_number =#{accountNumber}
+    </select>
+
+    <select id="selectCount" resultType="java.lang.Long">
+        SELECT count(*) FROM sys_user WHERE account_number = #{accountNumber}
+    </select>
+
+    <!-- 根据id查询用户 -->
+    <select id="selectByid" resultType="com.example.entity.SysUser">
+        SELECT * FROM sys_user WHERE id = #{id}
+    </select>
+
+    <!-- 查询所有用户 -->
+    <select id="selectAll" resultType="com.example.entity.SysUser">
+        SELECT * FROM sys_user
+    </select>
+
+    <!-- 插入用户 -->
+    <insert id="insert">
+        INSERT INTO sys_user(account_number, account_password, avatar, vip)
+        VALUES(#{accountNumber}, #{accountPassword}, #{avatar}, #{vip})
+    </insert>
+
+
+    <!-- 更新用户 -->
+    <update id="updatepassword">
+        update sys_user
+        set account_password=#{accountPassword}
+        where id = #{id}
+    </update>
+
+    <!-- 更新头像路径 -->
+    <update id="updateavatar">
+        update sys_user
+        set avatar=#{avatar}
+        where id = #{id}
+    </update>
+
+    <!-- 根据用户名删除用户 -->
+    <delete id="deleteByaccountNumber" parameterType="java.lang.Integer">
+        DELETE FROM sys_user WHERE accountNumber = #{accountNumber}
+    </delete>
+
+
+</mapper>

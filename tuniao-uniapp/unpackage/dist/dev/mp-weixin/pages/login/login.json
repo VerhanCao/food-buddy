@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#f4f6fa",
+  "usingComponents": {
+    "tn-button": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/button/src/button",
+    "tn-input": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/input/src/input",
+    "tn-footer": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/footer/src/footer"
+  }
+}

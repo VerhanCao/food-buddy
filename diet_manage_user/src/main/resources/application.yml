@@ -1,0 +1,37 @@
+spring:
+  #数据库连接信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/diet_manage
+    username: root
+    password: 5201314
+  #文件上传的配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+#Mybatis配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+
+    logging:
+      level:
+        debug
+#jwt配置
+jwt:
+  token:
+    tokenExpiration: 120 #有效时间,单位分钟
+    tokenSignKey: headline123456  #当前程序签名秘钥 自定义
+
+#      spring.main.allow-bean-definition-overriding: true
+##阿里云OSS
+#aliyun:
+#  oss:
+#    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+#    accessKeyId: LTAI4GCH1vX6DKqJWxd6nEuW
+#    accessKeySecret: yBshYweHOpqDuhCArrVHwIiBKpyqSL
+#    bucketName: web-tlias
+

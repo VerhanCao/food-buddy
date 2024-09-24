@@ -1,0 +1,185 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-0a633310,
+button.data-v-0a633310,
+text.data-v-0a633310,
+input.data-v-0a633310,
+textarea.data-v-0a633310 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 聊天消息 */
+.chat.data-v-0a633310 {
+  /* 底部聊天发送栏 */
+}
+.chat .topTabbar.data-v-0a633310 {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  display: flex;
+  margin-top: 80rpx;
+  justify-content: space-between;
+}
+.chat .topTabbar .icon.data-v-0a633310 {
+  margin-left: 20rpx;
+}
+.chat .topTabbar .text.data-v-0a633310 {
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+}
+.chat .topTabbar .button.data-v-0a633310 {
+  width: 10%;
+  margin: auto 20rpx auto 0rpx;
+}
+.chat .scroll-view.data-v-0a633310 {
+  background-color: #F6F6F6;
+}
+.chat .scroll-view.data-v-0a633310 ::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+.chat .scroll-view .chat-body.data-v-0a633310 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 23rpx;
+}
+.chat .scroll-view .chat-body .self.data-v-0a633310 {
+  justify-content: flex-end;
+}
+.chat .scroll-view .chat-body .item.data-v-0a633310 {
+  display: flex;
+  padding: 23rpx 30rpx;
+}
+.chat .scroll-view .chat-body .item .right.data-v-0a633310 {
+  background-color: #C2DCFF;
+}
+.chat .scroll-view .chat-body .item .left.data-v-0a633310 {
+  background-color: #FFFFFF;
+}
+.chat .scroll-view .chat-body .item .right.data-v-0a633310::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  left: 100%;
+  top: 10px;
+  border: 12rpx solid transparent;
+  border-left: 12rpx solid #C2DCFF;
+}
+.chat .scroll-view .chat-body .item .left.data-v-0a633310::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 10px;
+  right: 100%;
+  border: 12rpx solid transparent;
+  border-right: 12rpx solid #FFFFFF;
+}
+.chat .scroll-view .chat-body .item .content.data-v-0a633310 {
+  position: relative;
+  max-width: 486rpx;
+  border-radius: 8rpx;
+  word-wrap: break-word;
+  padding: 24rpx 24rpx;
+  margin: 0 24rpx;
+  border-radius: 5px;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 42rpx;
+}
+.chat .scroll-view .chat-body .item .avatar.data-v-0a633310 {
+  display: flex;
+  justify-content: center;
+  width: 78rpx;
+  height: 78rpx;
+  background: #4F7DF5;
+  border-radius: 50rpx;
+  overflow: hidden;
+}
+.chat .scroll-view .chat-body .item .avatar image.data-v-0a633310 {
+  align-self: center;
+}
+.chat .chat-bottom.data-v-0a633310 {
+  width: 100%;
+  height: 100rpx;
+  background: #F4F5F7;
+  transition: all 0.1s ease;
+}
+.chat .chat-bottom .send-msg.data-v-0a633310 {
+  display: flex;
+  align-items: flex-end;
+  padding: 16rpx 30rpx;
+  width: 100%;
+  min-height: 177rpx;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  transition: all 0.1s ease;
+}
+.chat .chat-bottom .uni-textarea.data-v-0a633310 {
+  padding-bottom: 70rpx;
+}
+.chat .chat-bottom .uni-textarea textarea.data-v-0a633310 {
+  width: 537rpx;
+  min-height: 75rpx;
+  max-height: 500rpx;
+  background: #f1f1f1;
+  border-radius: 40rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  color: #333333;
+  line-height: 74rpx;
+  padding: 5rpx 8rpx;
+  text-indent: 30rpx;
+}
+.chat .chat-bottom .send-btn.data-v-0a633310 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 76rpx;
+  margin-left: 25rpx;
+  width: 120rpx;
+  height: 75rpx;
+  background: #ed5a65;
+  border-radius: 50rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 28rpx;
+}

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/chat/chat",
+    "pages/diet/diet",
+    "pages/personal/personal",
+    "pages/purchase/purchase",
+    "pages/login/login",
+    "pages/upload/upload",
+    "pages/analysis/analysis",
+    "pages/logon/logon",
+    "pages/addDiet/addDiet",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "饮食陪伴官",
+    "navigationBarBackgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/tabBar/聊天.png",
+        "selectedIconPath": "static/tabBar/聊天1.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/diet/diet",
+        "iconPath": "static/tabBar/记录饮食.png",
+        "selectedIconPath": "static/tabBar/记录饮食1.png",
+        "text": "饮食管理"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/tabBar/我的.png",
+        "selectedIconPath": "static/tabBar/我的1.png",
+        "text": "我的"
+      }
+    ],
+    "color": "#8a8a8a",
+    "selectedColor": "#8a8a8a"
+  },
+  "usingComponents": {}
+}

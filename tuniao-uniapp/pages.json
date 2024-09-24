@@ -1,0 +1,203 @@
+{
+
+	"pages": [
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "图鸟UI"
+		// 	}
+		// }
+				{
+					"path" : "pages/chat/chat",
+					"style" : 
+					{
+						"navigationBarTitleText" : "饮食陪伴官",
+						"enablePullDownRefresh" : false,
+						"backgroundColor": "#f4f6fa"
+					}
+				},
+				{
+					"path" : "pages/diet/diet",
+					"style" : 
+					{
+						"navigationBarTitleText" : "饮食陪伴官",
+						"enablePullDownRefresh" : false,
+						"backgroundColor": "#f4f6fa"
+					}
+				},
+				{
+					"path" : "pages/personal/personal",
+					"style" : 
+					{
+						"navigationBarTitleText" : "饮食陪伴官",
+						"enablePullDownRefresh" : false,
+						"backgroundColor": "#f4f6fa"
+					}
+				},
+				{
+					"path": "pages/purchase/purchase"
+				},
+				{
+					"path" : "pages/login/login",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false,
+						"backgroundColor": "#f4f6fa"
+					}
+				},
+				{
+					"path" : "pages/upload/upload",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "pages/analysis/analysis",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "pages/logon/logon",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "pages/addDiet/addDiet",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				},
+				{
+					"path" : "pages/search/search",
+					"style" : 
+					{
+						"navigationBarTitleText" : "",
+						"enablePullDownRefresh" : false
+					}
+				}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "饮食陪伴官",
+		"navigationBarBackgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+			"list": [
+				{
+					"pagePath": "pages/chat/chat",
+					"iconPath": "static/tabBar/聊天.png",
+					"selectedIconPath": "static/tabBar/聊天1.png",
+					"text": "聊天"
+				},
+				
+				{
+					"pagePath": "pages/diet/diet",
+					"iconPath": "static/tabBar/记录饮食.png",
+					"selectedIconPath": "static/tabBar/记录饮食1.png",
+					"text": "饮食管理"
+				},
+				
+				{
+					"pagePath": "pages/personal/personal",
+					"iconPath": "static/tabBar/我的.png",
+					"selectedIconPath": "static/tabBar/我的1.png",
+					"text": "我的"
+				}
+			],
+			"color": "#8a8a8a",
+			"selectedColor": "#8a8a8a"
+		}
+	}
+
+
+	"easycom": {
+	    "autoscan": true,
+	    "custom": {
+	      // "^nut-(.*)?-(.*)": "nutui-uniapp/components/$1$2/$1$2.vue",
+	      // "^nut-(.*)": "nutui-uniapp/components/$1/$1.vue",
+		  // uni-ui 规则如下配置
+		  "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+		  "^tn-(.*)-(item|group)$": "@/uni_modules/tuniaoui-vue3/components/$1/src/$1-$2.vue",
+		        "^tn-(.*)": "@/uni_modules/tuniaoui-vue3/components/$1/src/$1.vue"
+	    }
+	  },
+	  
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// },
+		{
+			"path" : "pages/chat/chat",
+			"style" : 
+			{
+				"navigationBarTitleText" : "饮食陪伴官",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/diet/diet",
+			"style" : 
+			{
+				"navigationBarTitleText" : "饮食陪伴官",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/personal/personal",
+			"style" : 
+			{
+				"navigationBarTitleText" : "饮食陪伴官",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "饮食陪伴官",
+		"navigationBarBackgroundColor": "#0099CC",
+		"backgroundColor": "#f2f3f5"
+	},
+	
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/chat/chat",
+				"iconPath": "static/tabBar/聊天.png",
+				"selectedIconPath": "static/tabBar/聊天1.png",
+				"text": "聊天"
+			},
+			
+			{
+				"pagePath": "pages/diet/diet",
+				"iconPath": "static/tabBar/记录饮食.png",
+				"selectedIconPath": "static/tabBar/记录饮食1.png",
+				"text": "饮食管理"
+			},
+			
+			{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/tabBar/我的.png",
+				"selectedIconPath": "static/tabBar/我的1.png",
+				"text": "我的"
+			}
+		],
+		"color": "#8a8a8a",
+		"selectedColor": "#8a8a8a"
+	}
+
+}

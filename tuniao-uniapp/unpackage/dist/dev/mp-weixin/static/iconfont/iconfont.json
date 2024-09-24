@@ -1,0 +1,162 @@
+{
+  "id": "4470067",
+  "name": "diet_management",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+
+      "icon_id": "1264",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7214192",
+      "name": "个人资料",
+      "font_class": "gerenziliao",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1471594",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "7031791",
+      "name": "购买会员",
+      "font_class": "goumaihuiyuan",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "9041617",
+      "name": "我的订单",
+      "font_class": "wodedingdan",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11432795",
+      "name": "关于我们",
+      "font_class": "guanyuwomen",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "13543875",
+      "name": "我的收藏",
+      "font_class": "wodeshoucang",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "14441187",
+      "name": "right-arrow",
+      "font_class": "right-arrow",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "8288816",
+      "name": "VIP",
+      "font_class": "VIP",
+      "unicode": "e83d",
+      "unicode_decimal": 59453
+    },
+    {
+
+
+      "icon_id": "1305401",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+
+
+      "icon_id": "7594181",
+      "name": "24gf-recordSquare",
+      "font_class": "24gf-recordSquare",
+      "unicode": "ea89",
+      "unicode_decimal": 60041
+    },
+    {
+
+      "icon_id": "22386333",
+      "name": "分析",
+      "font_class": "fenxi",
+      "unicode": "ee27",
+      "unicode_decimal": 60967
+    },
+    {
+      "icon_id": "2920442",
+      "name": "Sm-蛋白质",
+      "font_class": "Sm-danbaizhi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9200434",
+      "name": "碳水化合物",
+      "font_class": "tanshuihuahewu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15912386",
+      "name": "脂肪",
+      "font_class": "zhifang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "529146",
+      "name": "检测与分析",
+      "font_class": "icon3",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1813171",
+      "name": "search-搜索",
+      "font_class": "search",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "24115556",
+      "name": "饮食记录",
+      "font_class": "yinshijilu",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "3769175",
+      "name": "记录饮食",
+      "font_class": "jiluyinshi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "6366915",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "11435770",
+      "name": "聊天",
+      "font_class": "liaotian",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}

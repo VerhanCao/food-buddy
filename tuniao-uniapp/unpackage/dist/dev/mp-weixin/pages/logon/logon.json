@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "select-tags": "../../node-modules/tnuiv3p-tn-select-tags/index",
+    "tn-input": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/input/src/input"
+  }
+}

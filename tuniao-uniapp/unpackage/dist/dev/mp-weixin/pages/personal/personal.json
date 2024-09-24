@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "饮食陪伴官",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#f4f6fa",
+  "usingComponents": {
+    "tn-button": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/button/src/button",
+    "tn-list-item": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/list/src/list-item",
+    "tn-update-user-info-popup": "../../node-modules/tnuiv3p-tn-update-user-info-popup/index",
+    "tn-footer": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/footer/src/footer"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-picker": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/picker/src/picker",
+    "tn-input": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/input/src/input",
+    "tn-form": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/form/src/form",
+    "tn-form-item": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/form/src/form-item",
+    "tn-swiper": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/swiper/src/swiper",
+    "tn-modal": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/modal/src/modal",
+    "tn-popup": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/popup/src/popup",
+    "tn-badge": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/badge/src/badge",
+    "tn-search-box": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/search-box/src/search-box",
+    "tn-icon": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/icon/src/icon",
+    "tn-button": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/button/src/button",
+    "tn-number-box": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/number-box/src/number-box",
+    "tn-tabs": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/tabs/src/tabs",
+    "tn-tabs-item": "../../node-modules/@tuniao/tnui-vue3-uniapp/components/tabs/src/tabs-item"
+  }
+}

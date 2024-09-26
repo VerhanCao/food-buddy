@@ -20,13 +20,6 @@ port_number = "9999"  # 交流的端口号为9999
 from config_ai import generate_api_object
 client = generate_api_object()
 
-# client = Ark(
-#         base_url="https://ark.cn-beijing.volces.com/api/v3",
-#         ak="AKLTNDg4YzA4OGVjZWFjNGU1Zjk2ZjViZjJhMTJkYmRjYzM",
-#         sk="TmpCbVlqVTRPVFEyWlRabU5HRTBObUk0TWpZMU5UTTRPRE5qWm1ZMk1qVQ==",
-#         api_key="cecbf2cb-d017-407e-9b85-bc3ef79e68ae"
-# )
-
 
 def load_memory(user_id, f):
     """

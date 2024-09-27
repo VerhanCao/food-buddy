@@ -30,7 +30,7 @@ Food Buddy is a native large-model app for managing diet. Key advantages include
 
 # 🔒 License Information
 
-This open-source project is based on the "[Apache LICENSE](https://gitee.com/verhancao/dietary-health-program/raw/master/LICENSE)",
+This open-source project is based on the "[Apache LICENSE](https://github.com/VerhanCao/food-buddy/blob/main/LICENSE)",
 
 With two additional requirements:
 

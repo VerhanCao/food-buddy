@@ -1,7 +1,7 @@
 English | [Simplified Chinese](https://github.com/VerhanCao/food-buddy/blob/main/README_zh.md)
 
 <div align=center>
-  <img src="https://gitee.com/verhancao/dietary-health-program/raw/master/resource/figures/gitee%E5%AE%A3%E4%BC%A0%E7%85%A7.png" width="600px">
+  <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/gitee%E5%AE%A3%E4%BC%A0%E7%85%A7.png" width="600px">
 </div>
 
 Food Buddy is a native large-model app for managing diet. Key advantages include:
@@ -13,7 +13,7 @@ Food Buddy is a native large-model app for managing diet. Key advantages include
 
 # 🔗 Technical Architecture
 <div align=center>
-    <img src="https://gitee.com/verhancao/dietary-health-program/raw/master/resource/figures/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png" width="92%">
+    <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png" width="92%">
 </div>
 
 ## Technology Stack
@@ -42,10 +42,10 @@ With two additional requirements:
 <table style="margin: auto;">
   <tr>
     <td style="text-align: center;">
-      <img src="https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2.png" alt="Chat Page" width="60%">
+      <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2.png" alt="Chat Page" width="60%">
     </td>
     <td style="text-align: center;">
-      <img src="https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/%E9%A5%AE%E9%A3%9F%E8%AE%B0%E5%BD%95%E9%A1%B5%E9%9D%A2.png" alt="Diet Log Page" width="60%">
+      <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/%E9%A5%AE%E9%A3%9F%E8%AE%B0%E5%BD%95%E9%A1%B5%E9%9D%A2.png" alt="Diet Log Page" width="60%">
     </td>
   </tr>
 </table>

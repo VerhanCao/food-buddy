@@ -1,7 +1,7 @@
 [English](https://gitee.com/verhancao/food-buddy/blob/master/README.en.md) | 简体中文
 
 <div align=center>
-  <img src="https://gitee.com/verhancao/dietary-health-program/raw/master/resource/figures/gitee%E5%AE%A3%E4%BC%A0%E7%85%A7.png" width="600px">
+  <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/gitee%E5%AE%A3%E4%BC%A0%E7%85%A7.png" width="600px">
 </div>
 
 饮食陪伴师是一个管理饮食的原生大模型小程序，优势：
@@ -12,8 +12,9 @@
 4. 提供一套前后端uniapp、算法源码，开源可学习
 
 # 🔗 技术架构
+
 <div align=center>
-    <img src="https://gitee.com/verhancao/dietary-health-program/raw/master/resource/figures/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png" width="92%">
+    <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png" width="92%">
 </div>
 
 ## 技术选型
@@ -43,18 +44,18 @@
 <table style="margin: auto;">
   <tr>
     <td style="text-align: center;">
-      <img src="https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2.png" alt="聊天页面" width="60%">
+      <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/%E8%81%8A%E5%A4%A9%E9%A1%B5%E9%9D%A2.png" alt="聊天页面" width="60%">
     </td>
     <td style="text-align: center;">
-      <img src="https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/%E9%A5%AE%E9%A3%9F%E8%AE%B0%E5%BD%95%E9%A1%B5%E9%9D%A2.png" alt="饮食记录页面" width="60%">
+      <img src="https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/%E9%A5%AE%E9%A3%9F%E8%AE%B0%E5%BD%95%E9%A1%B5%E9%9D%A2.png" alt="饮食记录页面" width="60%">
     </td>
   </tr>
 </table>
 
-
 [demo视频演示](https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/demo%E8%A7%86%E9%A2%91.mp4)
 
 > 以下列举了核心文件的结构
+
 ```
 |-- food-buddy/
     |-- LICENSE  # 许可证书
@@ -129,6 +130,7 @@
 [视频教程](http://)
 
 ## 一、准备运行环境
+
 > 默认前提条件：已下载Git工具
 > 
 > [food-buddy软件云盘](https://www.alipan.com/s/38myCHbBcZc)
@@ -136,11 +138,15 @@
 > [推荐教程](http://t.csdnimg.cn/5KcaM)
 
 ### （一）克隆仓库
+
 ```
 git clone --depth 1 --branch master https://gitee.com/verhancao/food-buddy.git
 ```
+
 ### （二）下载AI依赖
+
 #### 2.1 下载AI软件
+
 - 下载PyCharm
 
 [food-buddy软件云盘](https://www.alipan.com/s/38myCHbBcZc)
@@ -158,14 +164,18 @@ git clone --depth 1 --branch master https://gitee.com/verhancao/food-buddy.git
 - 下载依赖包
 
 打开 命令提示窗口 ，下载AI依赖到`python`环境
+
 ```
 pip install websockets
 pip install volcengine-python-sdk
 ```
+
 下载`volcengine-python-sdk`时会出现报错，[解决方案](https://github.com/volcengine/volcengine-python-sdk/issues/5)
 
 #### 2.2修改配置文件
+
 Pycharm打开项目。在`llm_server`目录下，修改`config_ai.py`文件
+
 ```
 # 设置火山大模型的API密钥
 client = Ark(
@@ -175,10 +185,13 @@ client = Ark(
     api_key="XXXXXXXXXX"
 )
 ```
+
 将以上替换成你的API密钥。[API密钥申请入口/火山引擎](https://console.volcengine.com/)
 
 ### （三）下载前端软件
+
 #### 3.1 安装软件
+
 - 安装Node.js环境
 
 [food-buddy软件云盘](https://www.alipan.com/s/38myCHbBcZc)
@@ -194,6 +207,7 @@ client = Ark(
 [food-buddy软件云盘](https://www.alipan.com/s/38myCHbBcZc)
 
 #### 3.2 安装前端依赖
+
 用命令提示窗口，切换到项目`tuniao_uniapp`目录下
 
 执行下条命令，安装前端依赖
@@ -203,8 +217,11 @@ npm install
 ```
 
 ### （四）下载后端软件
+
 #### 4.1 安装软件
+
 > IDEA需下载企业版，方便使用`SpringBoot`框架。（新账户有免费30day的试用期）
+
 - 安装 IDEA
 
 [food-buddy软件云盘](https://www.alipan.com/s/38myCHbBcZc)
@@ -237,7 +254,7 @@ name=**root**
 
 password=**11111111**
 
--  Navicat
+- Navicat
 
 [food-buddy软件云盘](https://www.alipan.com/s/38myCHbBcZc)
 
@@ -256,7 +273,9 @@ upload.add=D:\\\\diet\\\\food-buddy\\\\llm_server\\\\recommended_dishes\\\\add_i
 ```
 
 ## 二、运行项目
+
 ### （一）启动AI端
+
 用Pycharm打开food-buddy项目
 
 1.指定在项目运行时，Python的位置
@@ -272,6 +291,7 @@ upload.add=D:\\\\diet\\\\food-buddy\\\\llm_server\\\\recommended_dishes\\\\add_i
 **AI小后端启动！** 
 
 ### （二）启动后端
+
 用IDEA打开food-buddy项目
 
 1.配置本地jdk
@@ -306,6 +326,7 @@ upload.add=D:\\\\diet\\\\food-buddy\\\\llm_server\\\\recommended_dishes\\\\add_i
 **后端启动！**
 
 ### （三）启动前端
+
 1.打开HbuilderX，点击“编译”，等待编译完成
 
 2.打开微信开发者工具，创建小程序。

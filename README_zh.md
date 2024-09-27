@@ -52,7 +52,7 @@
   </tr>
 </table>
 
-[demo视频演示](https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/demo%E8%A7%86%E9%A2%91.mp4)
+[demo视频演示](https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/demo%E8%A7%86%E9%A2%91.mp4)
 
 > 以下列举了核心文件的结构
 
@@ -127,7 +127,7 @@
 
  **！！！新手强烈建议听我录制的教程视频，里面会科普知识，希望大家都能跑起来！** 
 
-[视频教程](http://)
+[视频教程](https://www.bilibili.com/video/BV13vxFegEML/?vd_source=2a184b19d3c75bdf0e027d301a4eb37a)
 
 ## 一、准备运行环境
 

@@ -31,7 +31,7 @@
 
 # 🔒 权限信息
 
-本开源项目基于「[Apache LICENSE](https://gitee.com/verhancao/dietary-health-program/raw/master/LICENSE
+本开源项目基于「[Apache LICENSE](https://github.com/VerhanCao/food-buddy/blob/main/LICENSE
 )」，
 
 特别得，在里面我们提出了两个附加要求：

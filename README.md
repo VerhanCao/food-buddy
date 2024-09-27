@@ -50,7 +50,8 @@ With two additional requirements:
   </tr>
 </table>
 
-[Demo Video](https://gitee.com/verhancao/food-buddy/raw/master/resource/figures/demo%E8%A7%86%E9%A2%91.mp4)
+[Demo Video](https://github.com/VerhanCao/food-buddy/blob/main/resource/figures/demo%E8%A7%86%E9%A2%91.mp4)
+
 
 > Below is the structure of the core files:
 ```
@@ -124,7 +125,7 @@ With two additional requirements:
 
 **!!! Strongly recommended for beginners to watch the tutorial video I recorded, as it explains the knowledge necessary for this project. I hope everyone can get it running!**
 
-[Tutorial Video](http://)
+[Tutorial Video](https://www.bilibili.com/video/BV13vxFegEML/?vd_source=2a184b19d3c75bdf0e027d301a4eb37a)
 
 ## I. Preparing the Runtime Environment
 > Default prerequisite: Git tool downloaded
